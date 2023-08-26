@@ -34,6 +34,7 @@ a {
 /* nav bar spacing */
 .nav-spacing {
   padding: 30px;
+  padding-right: 150px;
 }
 
 footer {
