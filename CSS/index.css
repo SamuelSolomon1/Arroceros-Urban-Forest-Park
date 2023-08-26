@@ -11,11 +11,12 @@
 }
 /* body */
 body {
-  /* background-image: url(##);
+  background-image: url(https://cbcpnews.net/cbcpnews/wp-content/uploads/2020/03/Arroceros-Park.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat; */
-  background-color: #435334;
+  background-repeat: no-repeat;
+
+  /* background-color: #435334 !; */
   padding-top: 75px;
   font-family: serif;
 }
@@ -26,39 +27,65 @@ a {
 /* nav bar spacing */
 .nav-spacing {
   padding: 30px;
+  padding-right: 150px;
 }
 
-
+/* button */
+.btn {
+  background-color: #435334 !important  ;
+  justify-content: center !important;
+}
+.btn:hover {
+  background-color: #739453 !important ;
+}
 /* --Carousel-- */
-.carousel-inner h1{
+/* .carousel-inner h1 {
   display: flex;
   position: absolute;
-  text-align: center!important;
+  text-align: center !important;
   justify-content: center;
   bottom: 250px;
   right: 1050px;
   font-size: 150px;
   font-weight: 700;
   overflow: visible;
-  color: #fff!important;
+  color: #fff !important;
 }
-.carousel-inner p{
+.carousel-inner p {
   display: flex;
   position: absolute;
-  text-align: center!important;
+  text-align: center !important;
   justify-content: center;
   text-overflow: clip;
   right: auto;
   bottom: 125px;
   font-size: 30px;
   font-weight: 500;
-  color: #fff!important;
-}
+  color: #fff !important;
+} */
 
 /* --Content-- */
-.content {
-}
+#content-image {
+  font-family: serif;
+  font-size: 50px !important;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000 !important;
 
+  /* margin-bottom: 250px !important; */
+}
+#content-image1 {
+  font-family: serif;
+  color: #fff;
+  font-size: 30px !important;
+  text-shadow: 2px 2px 4px #000000 !important;
+  /* margin-top: 500px !important; */
+}
+.carousel-caption {
+  position: absolute;
+  display: flex;
+  top: 0;
+  height: 100%;
+}
 .content h1 {
   padding: 0;
   align-items: center;
@@ -76,64 +103,57 @@ a {
 .content p {
   text-align: start;
   font-size: 20px;
-  
 }
 
-/* footer{
-    margin-top: 50px;
-    text-align: center;
-    background-color: rgba(255, 148, 148, .15);   
-    text-align: center;
-    padding: 20px 0; 
-    color: #fff;
-    bottom: 0;
-    width: 100%;
-    height: 60px;  
-    text-shadow: 2px 2px 4px #000000;
-  } */
-
-
+#border {
+  /* border: 2px solid red; */
+  background-color: rgb(115, 148, 83, 0.85);
+  text-align: center;
+  margin: 50px;
+  padding: 60px;
+  border-radius: 15px;
+}
 
 /* FOOTER FOOTER */
 footer {
-  background-color: #40513B;
+  background-color: #40513b;
   width: 100%;
   color: #fff;
 }
 
-.logoicontainer img{
-    width: 200px;
-    padding: 0;
+.logoicontainer img {
+  width: 200px;
+  padding: 0;
 }
 
-.footercontainer{
+.footercontainer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 20px;
 }
 
-.icontainer{
+.icontainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.icontainer a{
+.icontainer a {
   padding: 0px 5px;
   color: #fff;
   font-size: 20px;
   border: 2px solid #fff;
   margin: 0 5px;
   border-radius: 50%;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   cursor: pointer;
 }
 
-.icontainer a:hover{
+.icontainer a:hover {
   background-color: green;
 }
 
-.footerbtm{
+.footerbtm {
   text-align: center;
 }
