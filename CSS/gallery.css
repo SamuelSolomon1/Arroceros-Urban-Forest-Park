@@ -1,0 +1,90 @@
+/* nav background color */
+#navcolor {
+  /* background-color: rgba(255, 148, 148) !important; */
+  background-color: #9eb384 !important;
+  font-size: 150%;
+  font-family: serif;
+}
+/* nav font color */
+.nav-link {
+  color: #fff !important;
+}
+/* body */
+body {
+  /* background-image: url(https://cbcpnews.net/cbcpnews/wp-content/uploads/2020/03/Arroceros-Park.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+  background-color: rgba(115, 148, 83, 0.85) !important;
+  padding-top: 75px;
+  font-family: serif;
+}
+/* hyperlink */
+a {
+  text-decoration: none;
+}
+/* nav bar spacing */
+.nav-spacing {
+  padding: 30px;
+  padding-right: 150px;
+}
+
+.responsive-image {
+  max-width: 250px;
+  height: 250px;
+  transition: transform 0.5s;
+  box-shadow: 1s;
+}
+.desc {
+  margin-bottom: 30px;
+}
+
+.responsive-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.535);
+}
+
+/* FOOTER FOOTER */
+footer {
+  background-color: #40513b;
+  width: 100%;
+  color: #fff;
+}
+
+.logoicontainer img {
+  width: 200px;
+  padding: 0;
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.icontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icontainer a {
+  padding: 0px 5px;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  margin: 0 5px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.icontainer a:hover {
+  background-color: green;
+}
+
+.footerbtm {
+  text-align: center;
+}
